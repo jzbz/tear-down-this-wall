@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "tear-down-this-wall.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+    "default_icon": "icon_128.png"
+      },
+      "default_title": "Tear Down This Wall!"
+   },
+   "description": "Article paywalled? Tear Down This Wall!",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "manifest_version": 2,
+   "name": "Tear Down This Wall!",
+   "permissions": [ "http://*/*", "https://*/*", "webRequest", "webRequestBlocking" ],
+   "short_name": "TDTW",
+   "version": "0.1.2"
+}
